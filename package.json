@@ -1,0 +1,31 @@
+{
+  "name": "adp-preamble",
+  "version": "1.0.0",
+  "description": "ADP Test",
+  "main": "app.js",
+  "scripts": {
+    "start": "app.js",
+    "dev": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GaberMowiena/adp-preamble.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GaberMowiena/adp-preamble/issues"
+  },
+  "homepage": "https://github.com/GaberMowiena/adp-preamble#readme",
+  "dependencies": {
+    "body": "^5.1.0",
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "parser": "^0.1.4",
+    "request": "^2.88.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.1"
+  }
+}
